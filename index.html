@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/metismenu/dist/metisMenu.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body class="d-none">
+    <div class="d-flex body">
+        <div class="side-bar">
+            <div class="side-bar-top">
+                Admin Panel
+            </div>
+            
+            <div class="side-bar-top2">
+                <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="Logo">
+                <div class="side-bar-name">Arafat Rony</div>
+            </div>
+
+            <div class="side-bar-search">
+                <form action="">
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul id="metismenu">
+                <li>
+                    <a class="d-flex" href="">
+                        <div class="link-left-icon">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <div class="link-text">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a class="has-arrow d-flex" href="#" aria-expanded="false">
+                        <div class="link-left-icon">
+                            <i class="fa-solid fa-folder"></i>
+                        </div>
+                        <div class="link-text">Products</div>
+                    </a>
+                    <ul>
+                        <li><a href="">View all products</a></li>
+                        <li><a href="">Add Product</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="d-flex has-arrow" href="#" aria-expanded="false">
+                        <div class="link-left-icon">
+                            <i class="fa-solid fa-list"></i>
+                        </div>
+                        <div class="link-text">Categories</div>
+                    </a>
+                    <ul>
+                        <li><a href="">View Categories</a></li>
+                        <li><a href="">Add Categories</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="has-arrow" href="#" aria-expanded="false">Sub Categories</a>
+                    <ul>
+                        <li><a href="">asdfsdfas</a></li>
+                        <li><a href="">asdfsdfas</a></li>
+                        <li><a href="">asdfsdfas</a></li>
+                        <li><a href="">asdfsdfas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+
+        
+        <div class="right-side">
+
+            <div class="header-top">
+                <div class="header-top-right">
+                    <div class="right-left">
+
+                        <i class="fa-solid fa-bars useless-humberg"></i>
+
+                        <i class="fa-solid fa-bars humberg" id="humberg"></i>
+
+                        <a href="">Home</a>
+                        <a href="">Contact</a>
+                    </div>
+                    <div class="right-right">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="fa-solid fa-comments"></i>
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-power-off"></i>
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content-section">
+                <div class="body-title">
+                    <div class="body-title-left">
+                        Dashboard v2
+                    </div>
+                    <div class="body-title-right">
+                        <a href="">Home / </a>
+                        <span>Dashboard v2</span>
+                    </div>
+                </div>
+
+                
+                <div class="body-cards">
+                    <div class="body-card">
+                        <div class="body-card-left one">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="body-card-right">
+                            <div class="body-card-right-top">CPU Traffic</div>
+                            <div class="body-card-right-bottom">10%</div>
+                        </div>
+                    </div>
+                    <div class="body-card">
+                        <div class="body-card-left two">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </div>
+                        <div class="body-card-right">
+                            <div class="body-card-right-top">CPU Traffic</div>
+                            <div class="body-card-right-bottom">10%</div>
+                        </div>
+                    </div>
+                    <div class="body-card">
+                        <div class="body-card-left three">
+                            <i class="fa-brands fa-microsoft"></i>
+                        </div>
+                        <div class="body-card-right">
+                            <div class="body-card-right-top">CPU Traffic</div>
+                            <div class="body-card-right-bottom">10%</div>
+                        </div>
+                    </div>
+                    <div class="body-card">
+                        <div class="body-card-left four">
+                            <i class="fa-solid fa-users-line"></i>
+                        </div>
+                        <div class="body-card-right">
+                            <div class="body-card-right-top">CPU Traffic</div>
+                            <div class="body-card-right-bottom">10%</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Monthly Recap Report
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                            <div class="accordion-body p-0">
+                                <div class="my-graphs">
+                                    <div class="my-graph-1">
+                                        <canvas id="myBarChart" style="width: 100%"></canvas>
+                                    </div>
+                                    <div class="my-graph-1">
+                                        <canvas id="myLineChart" style="width: 100%"></canvas>
+                                    </div>
+                                </div>
+                                <div class="my-graphs-bottom">
+                                    <div class="my-graphs-bottom-single-item">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-caret-up"></i>
+                                            17%
+                                        </div>
+                                        <div>$35,210.43</div>
+                                        <div>TOTAL REVENUE</div>
+                                    </div>
+                                    <div class="my-graphs-bottom-single-item">
+                                        <div>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            17%
+                                        </div>
+                                        <div>$35,210.43</div>
+                                        <div>TOTAL REVENUE</div>
+                                    </div>
+                                    <div class="my-graphs-bottom-single-item">
+                                        <div>
+                                            <i class="fa-solid fa-caret-down"></i>
+                                            17%
+                                        </div>
+                                        <div>$35,210.43</div>
+                                        <div>TOTAL REVENUE</div>
+                                    </div>
+                                    <div class="my-graphs-bottom-single-item" onclick="openFullscreen()">
+                                        <div>
+                                            <i class="fa-sharp fa-solid fa-caret-up"></i>
+                                            17%
+                                        </div>
+                                        <div>$35,210.43</div>
+                                        <div>TOTAL REVENUE</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="index-body-widgets">
+                    <div class="widgets-left">
+                        <div class="body-card-w-50">
+                            <div class="accordion" id="accordionExample3">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingThree">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                            Latest Members
+                                        </button>
+                                    </h2>
+                                    <div id="collapseThree" class="accordion-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample3">
+                                        <div class="accordion-body p-0">
+                                            <div class="recent-user-cards">
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                                <div class="recent-user-card">
+                                                    <img src="https://adminlte.io/themes/v3/dist/img/user2-160x160.jpg" alt="">
+                                                    <span>Arafat Rony</span>
+                                                    <span>08 July, 2023</span>
+                                                </div>
+                                            </div>
+                                            <div class="py-3 text-center w-100 bg-black">
+                                                <a href="/">View All Users</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-card-w-50">
+                            <div class="accordion" id="accordionExample2">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingTwo">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                            Latest Members
+                                        </button>
+                                    </h2>
+                                    <div id="collapseTwo" class="accordion-collapse collapse show" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
+                                        <div class="accordion-body p-0">
+                                            <canvas id="myChartPie" style="width:100%;"></canvas>
+                                            <div class="pt-3">
+                                                <div class="d-flex justify-content-between p-2 bottom-card">
+                                                    <span>United States of America</span>
+                                                    <span>12%</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between p-2 bottom-card">
+                                                    <span>United States of America</span>
+                                                    <span>12%</span>
+                                                </div>
+                                                <div class="d-flex justify-content-between p-2 bottom-card">
+                                                    <span>United States of America</span>
+                                                    <span>12%</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="accordion" id="accordionExample4">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFour">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                            Latest Orders
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFour" class="accordion-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample4">
+                                        <div class="accordion-body p-0">
+                                            <table class="table" style="color: #F4F6F9">
+                                                <thead>
+                                                    <tr>
+                                                        <th scope="col">ID</th>
+                                                        <th scope="col">Item</th>
+                                                        <th scope="col">Status</th>
+                                                        <th scope="col">Popularity</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr>
+                                                        <th scope="row">1</th>
+                                                        <td>Mark</td>
+                                                        <td>Otto</td>
+                                                        <td>@mdo</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">2</th>
+                                                        <td>Jacob</td>
+                                                        <td>Thornton</td>
+                                                        <td>@fat</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <th scope="row">3</th>
+                                                        <td>Larry</td>
+                                                        <td>the Bird</td>
+                                                        <td>@twitter</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <div class="py-3 w-100 bg-black d-flex justify-content-between">
+                                                <button class="btn btn-primary py-1">Place new Order</button>
+                                                <button class="btn btn-success py-1">View all Orders</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- -- page right -- -->
+                    <div class="widgets-right">
+
+                        <div class="body-cards">
+                            <div class="body-card-w-100">
+                                <div class="body-card-left one">
+                                    <i class="fa-solid fa-gear"></i>
+                                </div>
+                                <div class="body-card-right">
+                                    <div class="body-card-right-top">CPU Traffic</div>
+                                    <div class="body-card-right-bottom">10%</div>
+                                </div>
+                            </div>
+                            <div class="body-card-w-100">
+                                <div class="body-card-left two">
+                                    <i class="fa-solid fa-thumbs-up"></i>
+                                </div>
+                                <div class="body-card-right">
+                                    <div class="body-card-right-top">CPU Traffic</div>
+                                    <div class="body-card-right-bottom">10%</div>
+                                </div>
+                            </div>
+                            <div class="body-card-w-100">
+                                <div class="body-card-left three">
+                                    <i class="fa-brands fa-microsoft"></i>
+                                </div>
+                                <div class="body-card-right">
+                                    <div class="body-card-right-top">CPU Traffic</div>
+                                    <div class="body-card-right-bottom">10%</div>
+                                </div>
+                            </div>
+                            <div class="body-card-w-100">
+                                <div class="body-card-left four">
+                                    <i class="fa-solid fa-users-line"></i>
+                                </div>
+                                <div class="body-card-right">
+                                    <div class="body-card-right-top">CPU Traffic</div>
+                                    <div class="body-card-right-bottom">10%</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="w-100" style="margin-top: 0">
+                            <div class="accordion" id="accordionExample5">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="headingFive">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                            Recently added products
+                                        </button>
+                                    </h2>
+                                    <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive" data-bs-parent="#accordionExample5">
+                                        <div class="accordion-body p-0">
+                                            <div class="w-100">
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                                <div class="product-list-card">
+                                                    <div class="product-list-left">
+                                                        <img src="https://adminlte.io/themes/v3/dist/img/default-150x150.png" alt="">
+                                                    </div>
+                                                    <div class="product-list-right">
+                                                        <a href="">Samsung TV</a>
+                                                        <div class="text-truncate">26" Mongoose Dolomite Men's 7-speed, Navy Bad zylem curious Samsung</div>
+                                                    </div>
+                                                    <div class="product-card-price-tag">$1850.00</div>
+                                                </div>
+                                            </div>
+                                            <div class="py-3 text-center w-100 bg-black">
+                                                <a href="/">View All Users</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                Copyright © 2014-2021 AdminLTE.io. All rights reserved.
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/metismenu"></script>
+    <script src="https://kit.fontawesome.com/3b6281a10a.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+    <script>
+        $(document).ready(function(){
+            $("#metismenu").metisMenu();
+        });
+    </script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('body').removeClass('d-none');
+            $('#humberg').on('click', function(e){
+                $('.side-bar').addClass('active')
+                event.stopPropagation();
+            })
+
+            $('.right-side').click(function() {
+                $('.side-bar').removeClass('active')
+            });
+        });
+    </script>
+
+    <script>
+        var xValues = ["January", "February", "March", "April", "May", "June", "July", "August" ,"September", "October", "November", "December"];
+        var yValues = [55, 49, 44, 24, 15, 0, 20, 98, 37, 205, 108, 16];
+        var barColors = ["red", "green","blue","orange","brown","red", "green","blue","orange","brown","white","black"];
+
+        new Chart("myBarChart", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                legend: {display: false}
+            }
+        });
+    </script>
+
+    
+    <script>
+        var xValues = ["January", "February", "March", "April", "May", "June", "July", "August" ,"September", "October", "November", "December"];
+        var yValues = [55, 49, 44, 24, 15, 0, 20, 98, 37, 205, 108, 16];
+        var barColors = ["red", "green","blue","orange","brown","red", "green","blue","orange","brown","white","black"];
+
+        new Chart("myBarChart", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [
+                    {
+                        backgroundColor: barColors,
+                        data: yValues
+                    }
+                ]
+            },
+            options: {
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,   
+                    text: 'Sales: 1 Jan, 2014 - 30 Jul, 2014',
+                }
+            }
+        });
+    </script>
+
+    <script>
+        const xLineValues = [100,200,300,400,500,600,700,800,900,1000];
+
+        new Chart("myLineChart", {
+            type: "line",
+            data: {
+                labels: xLineValues,
+                datasets: [
+                    {
+                        data: [860,1140,1060,1060,1070,1110,1330,2210,7830,2478],
+                        borderColor: "red",
+                        fill: false
+                    },
+                    {
+                        data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+                        borderColor: "green",
+                        fill: false
+                    },
+                    {
+                        data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+                        borderColor: "blue",
+                        fill: false
+                    }
+                ]
+            },
+            options: {
+                legend: {
+                    display: false
+                },
+                title: {
+                    display: true,   
+                    text: 'Sales: 1 Jan, 2014 - 30 Jul, 2014',
+                }
+            }
+        });
+
+    </script>
+
+    <script>
+        var xValuesPie = ["January", "February", "March", "April"];
+        var yValuesPie = [55, 49, 44, 24];
+        var barColorsPie = ["red", "green","blue","orange"];
+
+        new Chart("myChartPie", {
+            type: "doughnut",
+            data: {
+                labels: xValuesPie,
+                datasets: [
+                    {
+                        backgroundColor: barColorsPie,
+                        data: yValuesPie
+                    }
+                ]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: "World Wide Wine Production"
+                }
+            }
+        });
+    </script>
+
+
+    <script>
+        var elem = document.documentElement;
+
+        /* View in fullscreen */
+        function openFullscreen() {
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.webkitRequestFullscreen) { /* Safari */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE11 */
+                elem.msRequestFullscreen();
+            }
+        }
+    </script>
+</body>
+</html>
